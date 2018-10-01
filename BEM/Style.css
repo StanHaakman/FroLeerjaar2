@@ -1,0 +1,54 @@
+.body{
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  background-color: #3e3e3e;
+}
+
+.header__link{
+  margin-top: 0;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+}
+
+.main{
+  margin: 5vw;
+  background-color: #4A4444;
+  color: #fff;
+}
+
+.main__kop{
+  font-size: 7vw;
+  text-align: center;
+}
+
+.main__paragraaf{
+  padding: 2vw;
+}
+
+#validatie img {
+  height: 1em;
+  width: auto;
+  border: 0;
+  margin: 0 .3em;
+}
+
+.footer{
+  width: 100vw;
+  background-color: #e3e3e3;
+  position: fixed;
+  float: bottom;
+  top: 95%;
+  height: 50vh;
+}
+
+.footer__socialIcons{
+  align-items: left;
+  float: right;
+  font-size: 2vw;
+  margin-top: -1%;
+}
