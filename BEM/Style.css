@@ -30,7 +30,7 @@
   padding: 2vw;
 }
 
-#validatie img {
+.validatie__img {
   height: 1em;
   width: auto;
   border: 0;
@@ -42,13 +42,40 @@
   background-color: #e3e3e3;
   position: fixed;
   float: bottom;
-  top: 95%;
+  top: 90%;
   height: 50vh;
 }
 
-.footer__socialIcons{
+.socialIcons--fb::before{
+  content: "\f082";
+  font-family: "Font Awesome 5 Brands";
+}
+
+.socialIcons--ln::before{
+  content: "\f08c";
+  font-family: "Font Awesome 5 Brands";
+}
+
+.socialIcons--sc::before{
+  content: "\f2ad";
+  font-family: "Font Awesome 5 Brands";
+}
+
+.socialIcons{
   align-items: left;
   float: right;
-  font-size: 2vw;
+  font-size: 4vw;
   margin-top: -1%;
+  margin-right: 1vw;
 }
+
+@media only screen and (max-width:620px) {
+            /* For mobile phones: */
+
+            .socialIcons{
+              align-items: left;
+              float: right;
+              font-size: 4vw;
+              margin-top: -3%;
+            }
+        }
