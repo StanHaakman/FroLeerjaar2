@@ -17,7 +17,7 @@ $('footer').click(function () {
 }).dblclick (function () {
   $(this).animate( {
       top: '+=30px',
-      opactivy: '1'
+      opacity: '1'
   }, 900)
 });
 
