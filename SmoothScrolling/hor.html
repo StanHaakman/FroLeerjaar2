@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="scrollStyle.css">
+    <title>Smooth scroll</title>
+    <style>
+      #yellow{
+        overflow-y: scroll;
+      }
+
+      main{
+        width: 500vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+
+      section{
+        height: 100vh;
+        transition: background-color 500ms ease-in-out;
+      }
+
+      #blue:hover{
+        background-color: darkblue;
+        transition: background-color 500ms ease-in-out;
+      }
+
+      #yellow:hover{
+        background-color: darkgoldenrod;
+        transition: background-color 500ms ease-in-out;
+      }
+
+      #green:hover{
+        background-color: darkgreen;
+        transition: background-color 500ms ease-in-out;
+      }
+
+      #red:hover{
+        background-color: darkred;
+        transition: background-color 500ms ease-in-out;
+      }
+
+      #purple:hover{
+        background-color: darkviolet;
+        transition: background-color 500ms ease-in-out;
+      }
+
+    </style>
+  </head>
+  <body class="hor">
+    <nav>
+
+      <ul>
+
+        <li><a href="#red">Red</a></li>
+
+        <li><a href="#yellow">Yellow</a></li>
+
+        <li><a href="#green">Green</a></li>
+
+        <li><a href="#blue">Blue</a></li>
+
+        <li><a href="#purple">purple</a></li>
+
+      </ul>
+
+    </nav>
+
+    <main>
+
+      <section id="red">
+
+        <h2>Red page horizontal</h2>
+        <p>This is the Red page</p>
+        <br>
+        <label for="link-horizontaal">
+        <p>Click <a id="link-horizontaal" href="index.html">Here</a> for the vertical version</p>
+        </label>
+      </section>
+
+      <section id="yellow">
+
+        <h2>Yellow page horizontal</h2>
+        <p>This is the Yellow page</p>
+        <p id="imggrid">
+          <img src="img/kastanje.JPG" alt="hoi">
+          <img src="img/Bloem2.JPG" alt="hoi">
+          <img src="img/Bloem4.JPG" alt="hoi">
+          <img src="img/Paddenstoelen.JPG" alt="hoi">
+          <img src="img/VlinderOpBloem.JPG" alt="hoi">
+        </p>
+      </section>
+
+      <section id="green">
+
+        <h2>Green page horizontal</h2>
+        <p>This is the Green page</p>
+
+      </section>
+
+      <section id="blue">
+
+        <h2>Blue page horizontal</h2>
+        <p>This is the Blue page</p>
+        <div id="validatie">
+          <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+            <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+          </a>
+        </div>
+
+      </section>
+
+      <section id="purple">
+
+        <h2>Purple page horizontal</h2>
+        <p>This is the Purple page</p>
+
+      </section>
+
+    </main>
+
+  </body>
+</html>
